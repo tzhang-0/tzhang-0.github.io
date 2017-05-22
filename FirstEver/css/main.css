@@ -1,0 +1,124 @@
+body {
+
+	background-color:#74AFAD;
+	color:#7F245D;
+	font-family: 'Bungee Shade', cursive;
+
+
+}
+
+h1 {
+
+	font-size: 50px; 
+	background-color: blue;
+	width: 70%;
+	padding: 50px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	border:groove 20px yellow;
+	margin: auto;
+	text-align: center;
+	animation-name: bannerAnimation;
+	animation-duration: 4s;
+
+
+
+}
+
+#rplace {
+
+	width:1000px;
+	color: blue; 
+}
+
+#Heatmap {
+
+	width:500px; 
+}
+
+#gen-bad {
+float: left;
+padding-top: 20px;
+}
+
+img {
+	width:500px;
+}
+
+.red{
+	color: red ;
+}
+
+.blue{
+	color: blue ;
+}
+
+.green{
+	color: green ;
+}
+
+.orange{
+	color: orange ;
+}
+
+.pink{
+	color: pink;
+}
+
+#gen-bad {
+	margin:10px 4em 0px 4em;
+	padding: 15px;
+	background-color: rgb(200, 200, 200);
+	width: 400px;
+	height: 300px;
+	overflow: scroll;
+	margin: auto;
+}
+
+li {
+	text-style: none;
+}
+
+li: nth-child(2) {
+	color: green;
+}
+
+header a {
+	margin:100px 0em 0px 4em;
+	padding: 1em;
+	background-color: rgb(200,200,200);
+	text-decoration: none;
+	width: 20px;
+}
+
+header a:hover {
+	background-color: blue;
+	color: orange;
+}
+
+
+@media(max-width:600px) {
+	h1 {
+		font-size: 1.5em;
+		padding: 1em;
+	}
+}
+	
+
+@media (max-width: 324px) {
+
+	#rplace{
+		width: 100%;
+	}
+}
+
+@keyframes bannerAnimation {
+	from {
+		background-color: orange;
+	}
+
+	to {
+	background-color:blue;
+}
+}

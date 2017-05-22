@@ -1,0 +1,43 @@
+form {
+	background-color: rgb(40,40,40);
+}
+
+label {
+	color: yellow;
+}
+
+div fieldset {
+	background-color: pink;
+}
+
+p, label {
+	color: yellow;
+}
+
+p + p + p {
+	color: blue;
+}
+
+h1 ~ p {
+	background-color: red;
+}
+
+a:link {
+	background-color: green;
+}
+
+a:visited {
+	background-color: yellow;
+}
+p:hover {
+	background-color: blue;
+}
+a + form fieldset h3 ~ ul li:nth-child(4): hover {
+	background-color: blue;
+}
+
+a {
+	margin: 2px;
+	padding: 10px;
+	
+}
